@@ -1,0 +1,37 @@
+---
+layout: default
+title: Home
+tags: [Serg Podtynnyi, blog, android, ruby, sinatra]
+---
+
+<div class="section_title" id="contacts">Contacts</div>
+<ul id="contacts_list">
+  <li><a href="mailto:serg@podtynnyi.com">Write me Email</a></li>
+  <li><a href="http://twitter.com/shtirlic/">Follow me on Twitter</a></li> 
+  <li><a href="http://github.com/shtirlic/">Fork me on GitHub</a></li>
+</ul>
+
+<div class="section_title" id="projects">Projects</div>
+<ul id="projects_list">
+  <li><span class="project_names"><a href="http://github.com/shtirlic/sinatra-jsonp/">sinatra-jsonp on GitHub</a> &mdash; JSONP output helper for Sinatra</span></li>
+  <li><span class="project_names"><a href="http://github.com/shtirlic/zoneideas/">zoneideas ruby on GitHub</a> &mdash; Ideas Management Web Application</span></li>
+  <li><span class="project_names"><a href="http://code.google.com/p/zoneideas/">zoneideas php on Google Code</a> &mdash; The same thing on PHP</span></li>
+</ul>
+
+
+<div class="section_title" id="blog">Blog</div>
+
+{% for post in site.posts %}
+<div class="post sweet-justice">
+  <div style="margin-bottom:20px">
+    <span class="post_date">{{ post.date | date_to_string }}</span>
+    <span style="font-size:1.2em">&mdash;</span>
+    <h2 style="display:inline"><a class="title_link" href="{{ post.url }}">{{ post.title }}</a></h2>
+    <br><br>
+    <h3 style="display:inline">Tags:</h3> <span style="font-size:1.1em"> {{ post.tags | array_to_sentence_string }}.</span>
+  </div>
+    {{ post.content}} 
+  </div>
+{% endfor %}
+
+

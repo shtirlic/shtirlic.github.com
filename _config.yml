@@ -1,0 +1,6 @@
+permalink: pretty
+pygments: true
+server: false
+auto: false
+markdown: rdiscount
+exclude: majordomo_sync.sh, local_run.sh, Thorfile

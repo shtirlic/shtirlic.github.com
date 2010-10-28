@@ -1,0 +1,52 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>{{ page.title }} &mdash; Serg Podtynnyi</title>
+    <meta name="author" content="Serg Podtynnyi">
+    <link href="http://feeds.feedburner.com/serg-podtynnyi" rel="alternate" title="Serg Podtynnyi" type="application/atom+xml" >
+    <meta name="keywords" content="{{ page.tags | join:", " }}">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/text.css">
+    <link rel="stylesheet" href="/css/960.css">
+    <link rel="stylesheet" href="http://github.com/mojombo/tpw/raw/master/css/syntax.css">
+    <link rel="stylesheet" href="/css/site.css">
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
+
+  </head>
+  <body>
+    <div class="container_12" >
+
+      <div class="grid_10 prefix_1 suffix_1">
+        <div style="padding-top:2em;">
+          <span class="main_title">Serg Podtynnyi :</span>
+          <span><a class="nav_links" style="border-bottom:1px solid;color:black;" href="/" >home</a></span>&nbsp;
+          <span><a class="nav_links" href="/#blog">blog</a></span>&nbsp;
+          <span><a class="nav_links" href="/#projects">projects</a></span>&nbsp;
+          <span><a class="nav_links" href="/#contacts">contacts</a></span>&nbsp;
+
+        </div>
+      </div>
+      <div class="clear"></div>
+
+      <div class="grid_10 prefix_1 suffix_1">
+        {{ content }}
+      </div>
+      <div class="clear"></div>
+    </div>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://github.com/aristus/sweet-justice/raw/master/sweet-justice.min.js"></script>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-399186-7']);
+      _gaq.push(['_setDomainName', '.podtynnyi.com']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+       })();
+    </script>
+  </body>
+</html>
