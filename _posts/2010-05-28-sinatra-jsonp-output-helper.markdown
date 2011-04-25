@@ -18,7 +18,7 @@ Installation
 ------------
 
 {% highlight bash %}
-sudo gem install sinatra-jsonp
+gem install sinatra-jsonp
 {% endhighlight %}
 
 
