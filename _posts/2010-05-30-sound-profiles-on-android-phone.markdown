@@ -30,9 +30,10 @@ QR Code for Market:
 
 ![](http://chart.apis.google.com/chart?cht=qr&chs=200x200&chl=http://cyrket.com/qr/16814)
 
-Update  25 Apr 2011: 
-I found application that can do everything that I wanted.
-It's Llama (https://market.android.com/details?id=com.kebab.Llama)
+##Update  25 Apr 2011: 
+
+I found a free application that does everything I wanted and a litle bit more.
+It's Llama [Get at Android Market](https://market.android.com/details?id=com.kebab.Llama)
 
 
 
