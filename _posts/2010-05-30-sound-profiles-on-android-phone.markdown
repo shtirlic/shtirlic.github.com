@@ -29,3 +29,13 @@ Most of the free apps in Market are crap and it wasn't so easy to find good one,
 QR Code for Market:
 
 ![](http://chart.apis.google.com/chart?cht=qr&chs=200x200&chl=http://cyrket.com/qr/16814)
+
+Update  25 Apr 2011: 
+I found application that can do everything that I wanted.
+It's Llama (https://market.android.com/details?id=com.kebab.Llama)
+
+
+
+
+
+
