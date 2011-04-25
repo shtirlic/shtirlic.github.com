@@ -25,22 +25,46 @@ sudo gem install sinatra-jsonp
 Usage
 -----
 
+Classic:
+
 {% highlight ruby%}
-require "sinatra"
-require "sinatra/jsonp"
+    require "sinatra"
+    require "sinatra/jsonp"
 
-get '/hi' do
-  data = ["hello","hi","hallo"]
-  JSONP data      # JSONP is an alias for jsonp method
-end
+    get '/hello' do
+      data = ["hello","hi","hallo"]
+      JSONP data      # JSONP is an alias for jsonp method
+    end
 
-# define your own callback as second param
+    # define your own callback as second string param
+    get '/hi' do
+      data = ["hello","hi","hallo"]
+      jsonp data, 'functionA'
+    end
 
-get '/hello' do
-  data = ["hello","hi","hallo"]
-  jsonp data, 'functionA'
-end
+    # same with symbol param
+    get '/hallo' do
+      data = ["hello","hi","hallo"]
+      jsonp data, :functionB
+    end
 {% endhighlight %}
+
+Modular:
+
+{% highlight ruby%}
+    require "sinatra/base"
+    require "sinatra/jsonp"
+
+    class Foo < Sinatra::Base
+      helpers Sinatra::Jsonp
+
+      get '/' do
+        data = ["hello","hi","hallo"]
+        jsonp data
+      end
+    end
+{% endhighlight %}
+
 
 Links
 -----
