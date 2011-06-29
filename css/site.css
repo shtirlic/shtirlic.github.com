@@ -18,7 +18,7 @@ ul
 pre, code
 {
   margin-bottom:0px;
-  font-family: 'Droid Sans Mono', monospace; 
+  font-family: 'Droid Sans Mono', monospace;
 }
 
 p
@@ -105,7 +105,7 @@ div.posts
 }
 span.post_date
 {
-  font-size:1.3em;  
+  font-size:1.3em;
 }
 
 a.title_link
