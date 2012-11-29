@@ -119,3 +119,8 @@ a.title_link:hover
   color:#777;
   border-bottom:1px solid #777;
 }
+
+div.post-hr
+{
+  text-align:center;
+}
