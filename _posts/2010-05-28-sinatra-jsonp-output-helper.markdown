@@ -4,10 +4,10 @@ title:  JSONP output helper for Sinatra
 tags: [ruby, sinatra, json, jsonp, jquery]
 ---
 
-Sinatra framework is an excellent start for anybody who wants to make own backend service. If you are using jQuery on frontend and 
-it's [jQuery.getJSON()](http://api.jquery.com/jQuery.getJSON) method you can do crossdomain requests 
-to your Sinatra application with JSONP callbacks. To be able to do this your service should return JSONP data. I tried to make things straightforward 
-and wrote simple Sinatra extension that outputs proper JSONP response. 
+Sinatra framework is an excellent start for anybody who wants to make own backend service. If you are using jQuery on frontend and
+it's [jQuery.getJSON()](http://api.jquery.com/jQuery.getJSON) method you can do crossdomain requests
+to your Sinatra application with JSONP callbacks. To be able to do this your service should return JSONP data. I tried to make things straightforward
+and wrote simple Sinatra extension that outputs proper JSONP response.
 
 The helper is pretty simple, just pass the object to jsonp method and it will return proper JSONP response if any callbacks were
 detected in request, instead it will output the plain JSON. Also if you want to define your own custom callback name you can pass
@@ -25,7 +25,13 @@ gem install sinatra-jsonp
 Usage
 -----
 
-Classic:
+Gemfile
+
+{% highlight ruby %}
+gem 'sinatra-jsonp'
+{% endhighlight %}
+
+Classic
 
 {% highlight ruby%}
     require "sinatra"
@@ -49,7 +55,7 @@ Classic:
     end
 {% endhighlight %}
 
-Modular:
+Modular
 
 {% highlight ruby%}
     require "sinatra/base"

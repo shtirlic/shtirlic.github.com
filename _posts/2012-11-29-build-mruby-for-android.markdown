@@ -12,7 +12,7 @@ published: true
 If you like playing with cool new stuff and have Android device here is the instructions of how to build mruby for Android using Android NDK arm toolchain.
 The goal was to use less custom stuff and make less modifications to original build process.
 
-NOTE: These instructions are for Mac OS X. The procedure is similar for other *nix.
+Note: These instructions are for Mac OS X. The procedure is similar for other *nix.
 
 ### mruby source
 * Clone [mruby](https://github.com/mruby/mruby) from GitHub
