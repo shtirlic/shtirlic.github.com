@@ -6,6 +6,7 @@ published: true
 ---
 
 Like Emoji emoticons used on Campfire, GitHub, Basecamp Next, Turntable.fm and others?
+
 Now you can use the same emoji icons on Adium. Look at the [preview image](http://www.adiumxtras.com/images/pictures/emojiicons_2_39797_8270_image_12788.jpg) for the some of them.
 
 ![](https://img.skitch.com/20120326-xdgtcdrundmpk5ygnpxd9r2tnf.jpg)
