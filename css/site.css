@@ -46,14 +46,14 @@ a:hover {
   color:black;
 }
 
-span.main_title {
+span.main-title {
   color: #000;
   font-weight: bold;
   font-size: 1.5em;
   text-shadow: #ccc 1px 1px 2px;
 }
 
-div.section_title {
+div.section-title {
   border-bottom: 1px solid #eee;
   font-weight: bold;
   font-size: 1.2em;
@@ -62,23 +62,24 @@ div.section_title {
   text-shadow: #777 1px 1px 1px;
 }
 
-span.project_names {
+span.project-names {
   font-size:1.1em;
 }
 
-#projects_list {
+#projects-list {
   padding-top:1em;
 }
 
-#contacts_list {
+#contacts-list {
+  padding-top:1em;
+  font-size:1.1em;
+}
+
+#fav-books-list {
   padding-top:1em;
 }
 
-#books_list {
-  padding-top:1em;
-}
-
-a.nav_links {
+a.nav-links {
   font-size: 1.5em;
   color: #777;
   text-decoration: none;
@@ -86,12 +87,12 @@ a.nav_links {
   border-bottom:1px dashed #777;
 }
 
-a.nav_links_hard {
+a.nav-links_hard {
   border-bottom:1px solid;
   color:black;
 }
 
-a.nav_links:hover {
+a.nav-links:hover {
   color:black;
   border-bottom:1px dashed black;
 }
@@ -104,24 +105,29 @@ div.posts {
   padding-top:1.2em;
 }
 
-div.post_date {
+div.post-date {
   float:right;
   font-size:1.3em;
 }
 
-a.title_link {
+a.title-link {
   color:black;
   text-decoration:none;
   border-bottom:1px solid black;
 }
 
-a.title_link:hover {
+a.title-link:hover {
   color:#777;
   border-bottom:1px solid #777;
 }
 
 div.post-hr {
   text-align:center;
+}
+
+div.post-tags {
+  color:#777;
+  font-size:1.1em;
 }
 
 blockquote {

@@ -4,56 +4,56 @@ title: Home
 tags: [Serg Podtynnyi, blog, android, ruby, sinatra, adium]
 ---
 
-<div class="section_title" id="contacts">Contacts</div>
-<ul id="contacts_list">
+<div class="section-title" id="contacts">Contacts</div>
+<ul id="contacts-list">
   <li><a href="mailto:serg@podtynnyi.com">Write me Email</a></li>
   <li><a href="https://twitter.com/shtirlic">Follow me on Twitter</a></li>
   <li><a href="https://github.com/shtirlic">Fork me on GitHub</a></li>
   <li><a href="https://coderwall.com/shtirlic">Endorse me on Coderwall</a></li>
 </ul>
 
-<div class="section_title" id="projects">Projects</div>
-<ul id="projects_list">
+<div class="section-title" id="projects">Projects</div>
+<ul id="projects-list">
   <li>
-    <span class="project_names">
+    <span class="project-names">
       <a href="https://github.com/shtirlic/taps-service">taps-service on GitHub</a> &mdash; Heroku taps as self-hosting service.
     </span>
   </li>
   <li>
-    <span class="project_names">
+    <span class="project-names">
       <a href="https://github.com/shtirlic/project-health">project-health on GitHub</a> &mdash; Library for calculating project health report and analysis based on GitHub Activity data.
     </span>
   </li>
   <li>
-    <span class="project_names">
+    <span class="project-names">
       <a href="https://github.com/shtirlic/sinatra-jsonp">sinatra-jsonp on GitHub</a> &mdash; JSONP output helper for Sinatra.
     </span>
   </li>
   <li>
-    <span class="project_names">
+    <span class="project-names">
       <a href="https://github.com/shtirlic/rovio-dotnet">rovio-dotnet on GitHub</a> &mdash; Rovio API .NET Library.
     </span>
   </li>
   <li>
-    <span class="project_names">
+    <span class="project-names">
       <a href="https://github.com/shtirlic/niceid">niceid on GitHub</a> &mdash; Nice ID generator library with checksum.
     </span></li>
   <li>
-    <span class="project_names">
+    <span class="project-names">
       <a href="https://github.com/shtirlic/emoji-icons.AdiumEmoticonSet">emoji-icons on GitHub</a> &mdash; Emoji emoticons set for Adium (Mac OSX)
     </span>
   </li>
 </ul>
 
 
-<div class="section_title" id="blog">Blog</div>
+<div class="section-title" id="blog">Blog</div>
 
 {% for post in site.posts %}
 <div class="post sweet-justice">
   <div>
-    <div class="post_date">{{ post.date | date_to_string }}</div>
-    <h2 style="display:inline"><a class="title_link" href="{{ post.url }}">{{ post.title }}</a></h2>
-    <div style="font-size:1.1em">{{ post.tags | array_to_sentence_string }}</div>
+    <div class="post-date">{{ post.date | date_to_string }}</div>
+    <h2 style="display:inline"><a class="title-link" href="{{ post.url }}">{{ post.title }}</a></h2>
+    <div class="post-tags">{{ post.tags | array_to_sentence_string }}</div>
   </div>
 
   <!--
