@@ -12,7 +12,7 @@ class Blog < Thor
 
     Links
     -----
-    
+
   TEXT
 
   desc "new", "Create a new blog post and open in EDITOR"
