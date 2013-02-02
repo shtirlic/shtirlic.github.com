@@ -15,7 +15,7 @@ class Blog < Thor
 
   TEXT
 
-  desc "new", "Create a new blog post and open in EDITOR"
+  desc "new", "Create a new blog post"
   def new(title=nil)
     abort("usage: thor blog:new 'Post Title'") if title.nil?
 
@@ -23,7 +23,6 @@ class Blog < Thor
     date = Time.now.strftime('%Y-%m-%d')
     file = "_posts/#{date}-#{title.downcase.gsub(/[!.,;:+=-]/, '').gsub(/\W+/, '-')}.markdown"
     File.open(file, 'wb') { |f| f.write(post) }
-    system "$EDITOR #{file}"
   end
 end
 

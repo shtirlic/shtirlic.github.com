@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Build mruby for Android
-tags: [ruby, mruby, android, ndk, build, cmake, arm, toolchain  ]
+tags: [ruby, mruby, android, ndk, build, cmake, arm, mac, toolchain  ]
 published: true
 ---
 
