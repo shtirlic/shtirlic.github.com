@@ -60,6 +60,3 @@ Links
 -----
 * [mruby GitHub project](https://github.com/mruby/mruby)
 * [Android NDK](https://developer.android.com/tools/sdk/ndk/index.html)
-* [homebrew](http://mxcl.github.com/homebrew/)
-* [CMake](http://www.cmake.org/)
-* [android-cmake project](https://code.google.com/p/android-cmake/)
