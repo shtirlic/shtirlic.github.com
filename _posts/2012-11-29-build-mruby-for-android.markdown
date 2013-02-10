@@ -36,21 +36,23 @@ build/tools/make-standalone-toolchain.sh --platform=android-14 --install-dir=/tm
 export ANDROID_STANDALONE_TOOLCHAIN=/tmp/android-14-toolchain
 {% endhighlight %}
 
-### CMake
-* Install cmake using [homebrew](http://mxcl.github.com/homebrew/) `brew install cmake`
-* Put [android toolchain cmake](http://code.google.com/p/android-cmake/source/browse/toolchain/android.toolchain.cmake) file into `cmake/modules` in mruby source tree
-* Put my [mruby osx android toolchain cmake](https://gist.github.com/4170066) file into the root of the mruby source tree
+### Update  10 Feb 2013:
+
+{% highlight ruby %}
+# Add to your build_config.rb
+ MRuby::CrossBuild.new('androideabi') do |conf|
+   toolchain :androideabi
+ end
+{% endhighlight %}
+
+and build mruby
 
 {% highlight bash %}
-cd mruby/build
-# Run cmake and make
-cmake -DCMAKE_TOOLCHAIN_FILE=../Toolchain-OSX-androideabi.cmake ..
-make -j8
+ruby minirake
 {% endhighlight %}
 
 ### Optional
-* Run `make package` to make archive
-* Put it on sdcard/internal storage, unzip and run it on your device
+
 
 
 
