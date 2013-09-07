@@ -17,11 +17,11 @@ upstream mozilla_sync {
 {% highlight bash %}
 server {
         # ... some your stuff
-
         location /sync/ {
                 rewrite /sync/(.*) /$1 break;
                 proxy_pass http://mozilla_sync;
         }
+}
 {% endhighlight %}
 
 Remember: Please setup SSL/TLS on your Nginx server for privacy and security.
