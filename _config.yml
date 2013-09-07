@@ -1,6 +1,4 @@
 permalink: pretty
 pygments: true
-server: true
-auto: true
-markdown: rdiscount
-exclude: Thorfile
+markdown: kramdown
+exclude: ['Thorfile']
