@@ -66,17 +66,9 @@ span.project-names {
   font-size:1.1em;
 }
 
-#projects-list {
-  padding-top:1em;
-}
-
-#contacts-list {
+#projects-list, #contacts-list, #fav-books-list, #fav-links-list {
   padding-top:1em;
   font-size:1.1em;
-}
-
-#fav-books-list {
-  padding-top:1em;
 }
 
 a.nav-links {
