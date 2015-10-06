@@ -7,15 +7,13 @@ published: true
 
 <del>Here is [simple gist](https://gist.github.com/4696903) for installing mono on Mac OS X via homebrew.</del>
 
-Run in the shell
+Via homebrew:
 
 {% highlight bash %}
-brew update
+brew update && brew install mono
 {% endhighlight %}
 
-{% highlight bash %}
-brew install mono
-{% endhighlight %}
+Via official Mac Package http://www.mono-project.com/download/#download-mac
 
 Links
 -----
