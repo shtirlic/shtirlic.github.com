@@ -1,0 +1,72 @@
+==================================================================
+https://keybase.io/shtirlic
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://podtynnyi.com
+  * I am shtirlic (https://keybase.io/shtirlic) on keybase.
+  * I have a public key with fingerprint 8E9F DE81 F95E 7CE2 C672  6B79 9D70 05BA E592 87C2
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.8.22"
+        },
+        "key": {
+            "eldest_kid": "010196fa5efacf15c6e73f5cab41e14805a9b3197205ca96d28379b229ac1dbe56450a",
+            "fingerprint": "8e9fde81f95e7ce2c6726b799d7005bae59287c2",
+            "host": "keybase.io",
+            "key_id": "9d7005bae59287c2",
+            "kid": "010196fa5efacf15c6e73f5cab41e14805a9b3197205ca96d28379b229ac1dbe56450a",
+            "uid": "ac1fe045c7994167c11d606130790619",
+            "username": "shtirlic"
+        },
+        "service": {
+            "hostname": "podtynnyi.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1444243118,
+    "expire_in": 157680000,
+    "prev": "9e02d86c457a6cdd07cf49c81d004a0fcfa699cda9f7512146302d551720e543",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG/MacGPG2 v2.0
+
+owGtkllo1EAYx3er1lasiteDKK5R8GCJmWwmySyoVFSoVVGRgoqsk5lJO7ZNttlY
+XVZRCh5rQatY7FoPPEDxQdf7ePHE+1gRFH3QFrQieFB80T6ZqfVB8NG8TPjm9//m
+//1nWsr6hUrCB5MDrn3Ys+1W+NEnK1Q1yj6dkSyXpqV4RiJ1nDm++HNwPZPiUi1L
+WzjFZO5GHJcyeU0q0sdEpUbmpbjrBJQim7KqShujghdqVkdZyk/Ucip2gQKQbmPI
+bExsAInOjJgNCbY0wIBmKhAjKwaQoSpBEelUNWMGslQVYQKoxaCuQQUHB9rcqWZe
+0uPComQyZFNmAhtBZhCmEt1QdctAiBqKAi3MIFJNg6iBsMZN+X8NI/U6TfTa+wf/
+n32v7W0XFG2maJAEFjWgGwQAqis6iCkGChYkwBTz+oJP1fjcq+NEhBpUGzlhIlgx
+SR+RdKmfdpw0l4lbH4iTnuu7xK0Ltmp8PxkXSj+dFOg6ZiX6miQs7tAgx9/31/b7
+AkGAEp+LtkDTNFWLAWBGJbY+yT2W4IKAhm4qwSfOYY0iNqao1NSJBg2sE0oVg9ga
+IiagiqJhxSY21hEiFCPbgEAFmh4LBBCCIC4GtZgk5mpwXCmOAp+4WszMqx3sr/WY
+tDEbHts/FC4JFQ8oEi80NKh02J9nWzauJJQ9UTnkW9nnHfrIctzVMxC3rIpkutrf
+3i5cmDe3ONpelJ9W1dRTc+/FheVVE562H+/enRs/+smKwfkv9zsnerXylPf1x7Zt
+f7bp68hLqwsbDleMe6k20dLhnweVl26+Ld2vXHpmV3ax9y7bvKz14qurHZPyz49v
+nTpm4fei0mRDRYncMoNsyd3o2He2qXzlp1V38pd7TlpHZxwt3FwdPhJpfVMpD+n+
+uWjigmXN2XxLLlecWR+/2Hw9dyx6LgQfN3QM2/Hw9IbCz6GZCrL50FV9SWFv52s6
+ec58c/udBztbp5+K7Ed8VuPzzitn/RFtL+TH6wY+nTnt4482Q5rNn3XBqefvdh/4
+BQ==
+=c3mI
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/shtirlic
+
+==================================================================
