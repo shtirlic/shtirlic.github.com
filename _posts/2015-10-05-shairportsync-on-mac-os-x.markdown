@@ -7,13 +7,15 @@ published: true
 
 > Shairport Sync emulates an AirPort Express for the purpose of streaming audio from iTunes, iPods, iPhones, iPads and AppleTVs. Audio played by a Shairport Sync-powered device stays synchronised with the source and hence with similar devices playing the same source. In this way, synchronised multi-room audio is possible without difficulty. (Hence the name Shairport Sync, BTW.)
 
-Building this on OS X is not so straightforward, so I made the [homebrew formula](https://gist.github.com/shtirlic/d55b3ac3767a2e7f54eb) for it.
+Building this on OS X is not so straightforward, so I made the <del>[homebrew formula](https://gist.github.com/shtirlic/d55b3ac3767a2e7f54eb) </del> for it.
+
+
+
+Formula was accepted into homebrew repo, so now just run:
 
 {% highlight bash %}
-brew install https://gist.githubusercontent.com/shtirlic/d55b3ac3767a2e7f54eb/raw/f7395d9f8015e5441e26811ad430c1410cc7cd44/shairport-sync.rb
+brew install shairport-sync
 {% endhighlight %}
-
-<script src="https://gist.github.com/shtirlic/d55b3ac3767a2e7f54eb.js"></script>
 
 PS
 Building with libsoxr, libao and dns_sd
