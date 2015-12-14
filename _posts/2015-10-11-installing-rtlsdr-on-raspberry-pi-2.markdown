@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Installing rtl-sdr on Raspberry Pi 2
-tags: [rtl-sdr, rtlsdr, raspbian, raspberry, pi, 2 ]
+tags: [rtl-sdr, rtlsdr, rtl, sdr, raspbian, raspberry, pi, 2 ]
 published: true
 ---
 
