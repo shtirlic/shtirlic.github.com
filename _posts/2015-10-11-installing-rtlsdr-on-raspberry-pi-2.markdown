@@ -8,7 +8,7 @@ published: true
 Use latest RASPBIAN based on the Debian Jessie and since Raspberry PI 2 is **armhf** architecture there are much more packages available now.  
 
 {% highlight bash %}
-sudo apt-get install libusb-1.0-0.dev librtlsdr-dev
+sudo apt-get install libusb-1.0-0-dev librtlsdr-dev
 {% endhighlight %}
 
 Make **/etc/modprobe.d/raspi-blacklist.conf** and add the following lines:
