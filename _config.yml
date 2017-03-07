@@ -1,4 +1,4 @@
 permalink: pretty
 highlighter: pygments
 markdown: kramdown
-exclude: ['Thorfile', 'Gemfile']
+exclude: ['Thorfile', 'Gemfile', 'Gemfile.lock']
