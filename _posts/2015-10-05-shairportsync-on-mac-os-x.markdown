@@ -1,7 +1,7 @@
 ---
 layout: post
 title: shairport-sync on Mac OS X
-tags: [shairport, apple, airplay, mac, osx, homebrew]
+tags: [shairport, apple, airplay, mac, osx, macos, homebrew]
 published: true
 ---
 
