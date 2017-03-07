@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Simple Daemon for lock and unlock macOS with Yubikey
-tags: [yubikey, mac, osx, macos lock, key, security, daemon]
+tags: [yubikey, mac, osx, macos, lock, key, security, daemon]
 published: true
 ---
 
@@ -14,7 +14,7 @@ Simple daemon for locking and unlocking OS X with Yubikey.
 Via Homebrew formula:
 
 {% highlight bash %}
-brew install https://raw.githubusercontent.com/shtirlic/yubikeylockd/master/yubikeylockd.rb
+ brew install https://raw.githubusercontent.com/shtirlic/yubikeylockd/master/yubikeylockd.rb
 {% endhighlight %}
 
 Manual install:
@@ -37,8 +37,8 @@ Daemon based on the sample provided by Apple for IOKit development.
 
 It does two things:
 * when device is attached it makes activity via
-```IOPMAssertionDeclareUserActivity``` call to turn screen on
-* after device is detached it uses ```IORequestIdle``` to put display to sleep and (if you configured it) also locks the OS X
+`IOPMAssertionDeclareUserActivity` call to turn screen on
+* after device is detached it uses `IORequestIdle` to put display to sleep and (if you configured it) also locks the OS X
 
 
 Links
