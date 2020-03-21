@@ -5,10 +5,12 @@ ul {
 pre, code {
   margin-bottom:0px;
   font-family: 'b612 Mono', monospace;
-  background: #eeeeee;
   font-size:12px;
 }
 
+code.highlighter-rouge{
+  background: #eeeeee;
+}
 figure.highlight {
   /*background: #F8F9FE;*/
   border: 1px solid #777;
