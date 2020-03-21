@@ -10,7 +10,10 @@ pre, code {
 
 code.highlighter-rouge{
   background: #eeeeee;
+  font-size:11px;
+  padding:2px;
 }
+
 figure.highlight {
   /*background: #F8F9FE;*/
   border: 1px solid #777;
