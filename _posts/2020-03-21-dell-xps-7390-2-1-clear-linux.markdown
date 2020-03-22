@@ -26,9 +26,7 @@ Additional Notes
 ----------------
 
 Disable `signs of life` in bios for normal s3 sleep and add 
-`mem_sleep_default=deep` to the `/etc/kernel/cmdline`
-
-and Reboot
+`mem_sleep_default=deep` to the `/etc/kernel/cmdline` then `sudo clr-boot-manager update` and Reboot
 
 Also I use secureboot with deploy mode.
 
