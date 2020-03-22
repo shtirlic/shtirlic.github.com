@@ -14,9 +14,7 @@ WiFi fix
 ------------
 
 {% highlight bash %}
-
 ln -s /lib/firmware/iwlwifi-Qu-c0-hr-b0-48.ucode /lib/firmware/iwlwifi-Qu-b0-hr-b0-50.ucode
-
 {% endhighlight %}
 
 and Reboot
@@ -29,7 +27,9 @@ Disable `signs of life` in bios for normal s3 sleep and add
 `mem_sleep_default=deep` to the `/etc/kernel/cmdline` then `sudo clr-boot-manager update` and Reboot
 
 Disable tap and drug for touchpad
-`gsettings set org.gnome.desktop.peripherals.touchpad tap-and-drag false`
+{% highlight bash %}
+gsettings set org.gnome.desktop.peripherals.touchpad tap-and-drag false
+{% endhighlight %}
 
 Links
 -----
