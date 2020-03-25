@@ -9,6 +9,7 @@ with some exceptions:
   - No camera
   - No fingerprint
   - No WiFi
+  - Pereodic Gnome freeze for ~20 seconds due ti [id915/mesa bug](https://gitlab.freedesktop.org/mesa/mesa/issues/2183)
 
 WiFi fix
 ------------
@@ -18,6 +19,18 @@ ln -s /lib/firmware/iwlwifi-Qu-c0-hr-b0-48.ucode /lib/firmware/iwlwifi-Qu-b0-hr-
 {% endhighlight %}
 
 and Reboot
+
+
+Gnome Freeze fix
+----------------
+
+Disable subpixel font antialiasing via dconf editor/settings/coomand line
+
+{% highlight bash %}
+gsettings set org.gnome.settings-daemon.plugins.xsettings antialiasing 'grayscale'
+gsettings set org.gnome.settings-daemon.plugins.xsettings hinting 'medium'
+{% endhighlight %}
+
 
 
 Additional Notes
