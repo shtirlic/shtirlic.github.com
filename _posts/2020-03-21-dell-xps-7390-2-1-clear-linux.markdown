@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Clear Linux on Dell XPS 7390 2 in 1
-tags: [dell, xps, 7390, 2in1, clearlinux]
+tags: [dell, xps, 7390, 2in1, clearlinux, wifi, gnome, fix, issues, i915, mesa]
 ---
 
 Almost all works out of the box on the current Clear Linux version `32660` with kernel `Linux arazu 5.5.10-921.native #1 SMP Wed Mar 18 16:03:14 PDT 2020 x86_64 GNU/Linux`
