@@ -18,7 +18,7 @@ WiFi fix
 ln -s /lib/firmware/iwlwifi-Qu-c0-hr-b0-48.ucode /lib/firmware/iwlwifi-Qu-b0-hr-b0-50.ucode
 {% endhighlight %}
 
-and Reboot
+->reboot
 
 
 Gnome Freeze fix
@@ -32,17 +32,38 @@ gsettings set org.gnome.settings-daemon.plugins.xsettings hinting 'medium'
 {% endhighlight %}
 
 
-
 Additional Notes
 ----------------
 
 Disable `signs of life` in bios for normal s3 sleep and add 
-`mem_sleep_default=deep` to the `/etc/kernel/cmdline` then `sudo clr-boot-manager update` and Reboot
+`mem_sleep_default=deep` to the `/etc/kernel/cmdline` then `sudo clr-boot-manager update`  
+->reboot
 
 Disable tap and drug for touchpad
+----------------
+
 {% highlight bash %}
 gsettings set org.gnome.desktop.peripherals.touchpad tap-and-drag false
 {% endhighlight %}
+
+
+Enable new IWD wireless backend for NetworkManager
+----------------
+
+Put it to `sudo vim /etc/NetworkManager/NetworkManager.conf`
+{% highlight ini %}
+[device]
+wifi.backend=iwd
+{% endhighlight %}
+
+then run
+{% highlight bash %}  
+  sudo swupd bundle-add iwd
+  sudo systemctl stop wpa_supplicant.service
+  sudo systemctl restart NetworkManager.service   
+{% endhighlight %}
+
+Reconnect to WiFi networks
 
 Links
 -----
