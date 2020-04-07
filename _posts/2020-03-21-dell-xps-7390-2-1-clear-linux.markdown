@@ -15,7 +15,7 @@ WiFi fix
 ------------
 
 {% highlight bash %}
-ln -s /lib/firmware/iwlwifi-Qu-c0-hr-b0-48.ucode /lib/firmware/iwlwifi-Qu-b0-hr-b0-50.ucode
+ln -s /lib/firmware/iwlwifi-Qu-c0-hr-b0-48.ucode /lib/firmware/iwlwifi-Qu-c0-hr-b0-52.ucode
 {% endhighlight %}
 
 =>reboot
