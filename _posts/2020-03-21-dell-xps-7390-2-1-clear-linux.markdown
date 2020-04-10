@@ -67,6 +67,12 @@ sudo systemctl restart NetworkManager.service
 
 =>reconnect to WiFi networks
 
+Select `none` IO scheduler for nvme
+-------------------------
+
+Add `elevator=none` `/etc/kernel/cmdline'
+
+
 Links
 -----
 
