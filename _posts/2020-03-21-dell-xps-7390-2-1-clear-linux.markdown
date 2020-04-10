@@ -70,7 +70,7 @@ sudo systemctl restart NetworkManager.service
 Select `none` IO scheduler for nvme
 -------------------------
 
-Add `elevator=none` `/etc/kernel/cmdline'
+Add `elevator=none` to `/etc/kernel/cmdline`
 
 
 Links
