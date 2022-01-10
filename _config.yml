@@ -2,3 +2,5 @@ permalink: pretty
 highlighter: rouge
 markdown: kramdown
 exclude: ['Thorfile', 'Gemfile', 'Gemfile.lock']
+include:
+ - .well-known
