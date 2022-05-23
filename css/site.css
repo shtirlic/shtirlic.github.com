@@ -56,35 +56,35 @@ a:hover {
 span.main-title {
   color: #000;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 2em;
   text-shadow: #ccc 1px 1px 2px;
 }
 
 div.section-title {
   border-bottom: 1px solid #eee;
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1.7em;
   padding-top: 1em;
   color: #000;
   text-shadow: #777 1px 1px 1px;
 }
 
 span.project-names {
-  font-size:1.1em;
+  font-size:1.2em;
 }
 
 .links-list{
   padding-top:1em;
-  font-size:1.1em;
+  font-size:1.2em;
 }
 
 #projects-list, #contacts-list {
   padding-top:1em;
-  font-size:1.1em;
+  font-size:1.2em;
 }
 
 a.nav-links {
-  font-size: 1.5em;
+  font-size: 2em;
   color: #777;
   text-decoration: none;
   padding-bottom:0.15em;
