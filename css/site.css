@@ -64,7 +64,7 @@ div.section-title {
   border-bottom: 1px solid #eee;
   font-weight: bold;
   font-size: 1.7em;
-  padding-top: 1em;
+  padding-top: 0.5em;
   color: #000;
   text-shadow: #777 1px 1px 1px;
 }
@@ -102,7 +102,7 @@ a.nav-links:hover {
 }
 
 div.post {
-  padding-top:1.2em;
+  padding-top:2em;
 }
 
 div.posts {
@@ -111,7 +111,7 @@ div.posts {
 
 div.post-date {
   float:right;
-  font-size:1.7em;
+  font-size:1.5em;
 }
 
 a.title-link {
@@ -131,7 +131,7 @@ div.post-hr {
 
 div.post-tags {
   color:#777;
-  font-size:1.1em;
+  font-size:1.2em;
 }
 
 blockquote {
