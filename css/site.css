@@ -1,5 +1,6 @@
 ul {
   list-style-type:square;
+  font-size:1.3em;
 }
 
 pre, code {
@@ -27,7 +28,7 @@ figure.highlight {
 
 p {
   margin-bottom:10px;
-  font-size:1.1em;
+  font-size:1.3em;
 }
 
 h1 {
