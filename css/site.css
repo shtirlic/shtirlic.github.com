@@ -6,12 +6,11 @@ ul {
 pre, code {
   margin-bottom:0px;
   font-family: 'b612 Mono', monospace;
-  font-size:13px;
+  font-size:15px;
 }
 
 code.highlighter-rouge{
   background: #eeeeee;
-  font-size:11px;
   padding:2px;
 }
 
@@ -19,7 +18,6 @@ figure.highlight {
   /*background: #F8F9FE;*/
   border: 1px solid #777;
   padding:5px 5px 6px 5px;
-  font-size:12px;
   margin-bottom:20px;
   -webkit-box-shadow: 3px 3px 7px #0a000a;
   -moz-box-shadow: 3px 3px 7px #0a000a;
