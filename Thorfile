@@ -1,6 +1,8 @@
-require "fileutils"
-class Blog < Thor
-  TEMPLATE = (<<-TEXT).gsub(/^ +/, '')
+# frozen_string_literal: true
+
+require 'fileutils'
+class Blog < Thor # rubocop:disable Style/Documentation
+  TEMPLATE = <<-TEXT.gsub(/^ +/, '')
     ---
     layout: post
     title: TITLE
@@ -15,8 +17,8 @@ class Blog < Thor
 
   TEXT
 
-  desc "new", "Create a new blog post"
-  def new(title=nil)
+  desc 'new', 'Create a new blog post'
+  def new(title = nil)
     abort("usage: thor blog:new 'Post Title'") if title.nil?
 
     post = TEMPLATE.sub('TITLE', title)
